@@ -6,6 +6,23 @@ The format is based on semantic versioning.
 
 ---
 
+## [v0.3.0-beta] - 2026-03-11
+
+### Added
+- Threshold-based system health evaluation
+- CPU, RAM, and disk usage health classification
+- Detailed warning generation when resource thresholds are exceeded
+- Overall system health status indicator
+- Console health summary section displaying CPU, RAM, and drive health states
+- Command-line argument support for specifying custom report output directories (`--output`)
+- Time-based report filename generation to prevent same-day report overwrites
+
+### Changed
+- Extended CSV report structure to include health status indicators and warning messages
+- Improved console output formatting to highlight health evaluation results
+
+---
+
 ## [v0.2.1-beta] - 2026-03-11
 
 ### Improved
@@ -42,4 +59,5 @@ The format is based on semantic versioning.
 - CPU utilization monitoring
 - Memory statistics reporting
 - Disk usage detection and reporting
+
 - Console-based workstation health output
